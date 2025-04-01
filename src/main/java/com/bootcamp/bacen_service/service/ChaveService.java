@@ -26,4 +26,15 @@ public class ChaveService {
                 .ativa(chave.getAtiva())
                 .build();
     }
+
+    public ChaveResponseDTO buscarChave(final String chavePesquisada){
+        Chave chave = chaveRepository.findByChave(chavePesquisada).orElseThrow(
+                () -> new RuntimeException());
+
+        return ChaveResponseDTO.builder()
+                .chave(chave.getChave())
+                .ativa(chave.getAtiva())
+                .build();
+
+    }
 }
