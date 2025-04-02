@@ -80,6 +80,6 @@
 }
 </code>
 
-<p>To control possible exception errors, it's necessary to create the package exception inside main > java > com.bootcamp.bacen_service folder. Then, create the classes <code>KeyAlreadyExistsException</code> and <code>KeyDoesNotExist</code></p>
+<p>To control possible exception errors, it's necessary to create the package exception inside main > java > com.bootcamp.bacen_service folder. Then, create the exceptions <code>KeyAlreadyExistsException</code> and <code>KeyDoesNotExist</code></p>
 
 <p>To treat the exceptions, it's necessary to create the package configuration inside inside main > java > com.bootcamp.bacen_service folder. Then, create the class <code>ControllerExceptionHandler</code></p>
