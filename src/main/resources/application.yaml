@@ -2,7 +2,7 @@ server:
   port: 9002
 spring:
   application:
-    name: conta-service
+    name: bacen-service
   datasource:
     url: jdbc:h2:file:./data/bacen_service
     driver-class-name: org.h2.Driver
